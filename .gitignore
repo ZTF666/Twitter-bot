@@ -1,6 +1,7 @@
+Tbot.py
 geckodriver.exe
 geckodriver.log
 __pycache__
 creds.py
-script.py
+
  
