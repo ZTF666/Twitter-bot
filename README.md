@@ -27,7 +27,7 @@ pip install selenium
 Get your Chrome/Firefox driver from this website :
 ```
 💿 [ChromeDriver](http://chromedriver.chromium.org/) 💿
-🦊 [GeckoDriver](https://github.com/mozilla/geckodriver/releases) 🦊
+🦊🦎 [GeckoDriver](https://github.com/mozilla/geckodriver/releases) 🦎🦊
 
 
 ```
@@ -84,27 +84,32 @@ for i in range(1,5):
  for X in range(1,9):
 ```
 
+>  <p> This link should be altered , put your own id instead of mine </p>
+```python
+        self.driver.get('https://twitter.com/i/connect_people?user_id=YOUR_PROFILE_ID_GOES_HERE')
+```
 
 **Credentials**
 
 ```
-As any other file containing sensitive data, credentials.py contains :
+As any other file containing sensitive data, creds.py contains :
 ```
 
 ```python
 login = 'PHONE_EMAIL_OR_USERNAME'
 pwd = 'PASSWORD'
+hashtag='YOUR HASHTAG HERE'
 ```
+
 ```
-Make sure to change that .
+Make sure to change those before launching .
 ```
 
 ## LIMITATIONS :
 
 ```
 The script bugs out from time to time depending on your internet speed .
-The quality is shit , i made this while learning so excuse my n00bish mistakes .
-
+This is not a perfect script , this have been made with basic knowledge .
 The function SLEEP() , has high intervals because of my 3rd world internet , 💛 4mbps 💛 .
 You should adapt it to your needs .
 ```
@@ -125,7 +130,7 @@ you can contact me at ZTF666@protonmail.ch or via my portfolio
 
 ## License
 
-**🤖Z-foll** released under the [MIT](LICENSE) License.
+**🐤TweetBot** released under the [MIT](LICENSE) License.
 
 ```
 Made with 💘 by a 👨‍💻 on a 💻 | 2020 | ZTF666
