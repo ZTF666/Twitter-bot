@@ -94,7 +94,7 @@ for i in range(1,5):
 **Credentials**
 
 ```
-As any other file containing sensitive data, creds.py contains :
+As any other file containing sensitive data, credentials.py contains :
 ```
 
 ```python
