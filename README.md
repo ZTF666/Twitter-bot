@@ -24,13 +24,15 @@ pip install selenium
 - **Download**
 
 ```
-Get your Chrome/Firefox driver from here :
+Chrome driver
 ```
  💿 [ChromeDriver](http://chromedriver.chromium.org/) 💿 
- ```
- ```
-🦊🦎 [GeckoDriver](https://github.com/mozilla/geckodriver/releases) 🦎🦊
 ```
+FireFox Driver
+```
+🦊🦎 [GeckoDriver](https://github.com/mozilla/geckodriver/releases) 🦎🦊
+
+``` 
 If you're using windows , you may want to put the .exe in the same folder as the script.
 At least that's how i do it.
 ```
