@@ -24,9 +24,9 @@ pip install selenium
 - **Download**
 
 ```
-Get your Chrome/Firefox driver from this website :
+Get your Chrome/Firefox driver from here :
 ```
-💿 [ChromeDriver](http://chromedriver.chromium.org/) 💿
+<p> 💿 [ChromeDriver](http://chromedriver.chromium.org/) 💿 <p>
 🦊🦎 [GeckoDriver](https://github.com/mozilla/geckodriver/releases) 🦎🦊
 
 
