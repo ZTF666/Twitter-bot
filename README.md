@@ -129,8 +129,13 @@ Any help improving this and adding more stuff is welcome ! .
 you can contact me at ZTF666@protonmail.ch or via my portfolio
 ```
 
-| 🌌[ Portfolio ] ( https://ztfportfolio.web.app/ )   🌌 |
+| 🌌 [ Portfolio ] ( https://ztfportfolio.web.app/ )   🌌 |
 |----------------------------------------------------------------------------|
+<table>
+  <tr>
+    <td align="center"><a href="https://ztfportfolio.web.app/"><img src="https://avatars1.githubusercontent.com/u/32502988?v=4" width="100px;" alt=""/><br /><sub><b>ZTF666</b></sub></a><br /><a href="https://github.com/ZTF666/Twitter-bot" title="Code">💻</a> </td>
+  </tr>
+</table>
 
 ## License
 
