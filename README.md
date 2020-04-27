@@ -43,7 +43,9 @@ Functionalities implemented so far :
 LOGIN ✔️
 FOllOW ✔️
 LIKE TWEETS ✔️
+SEARCH BY HASHTAG ✔️
 UNFOLLOW ❌
+RETWEET ❌
 
 
 ```
