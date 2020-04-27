@@ -83,6 +83,9 @@ class TwitterScript:
     def Unfollow(self):
         print('Still a WiP')
 
+    def Retweet(self):
+        print('Still a WiP')
+
 
 
 
