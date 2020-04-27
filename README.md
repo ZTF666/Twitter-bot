@@ -35,6 +35,24 @@ If you're using windows , you may want to put the .exe in the same folder as the
 At least that's how i do it.
 ```
 
+```
+In the LOGIN function , at the end of it call one of the 4 functions that you want to execute .
+The functions are : 
+        # TwitterScript.SearchHashTag(self)
+        # TwitterScript.Follow(self)
+        # TwitterScript.FollowByHashtag(self)
+        # TwitterScript.Unfollow(self)
+```
+
+```python
+.
+.
+sleep(10)
+TwitterScript.SearchHashTag(self)
+```
+
+
+
 ## Functionalities
 
 ```
@@ -44,7 +62,7 @@ LOGIN ✔️
 FOllOW ✔️
 LIKE TWEETS ✔️
 SEARCH BY HASHTAG ✔️
-UNFOLLOW ❌
+UNFOLLOW ✔️
 RETWEET ❌
 
 

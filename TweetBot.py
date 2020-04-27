@@ -81,7 +81,22 @@ class TwitterScript:
            
     #Unfollow people
     def Unfollow(self):
-        print('Still a WiP')
+        
+        profile = self.driver.find_element_by_xpath('/html/body/div/div/div/div[2]/header/div/div/div/div[1]/div[2]/nav/a[7]/div')
+        profile.click()
+        sleep(5)
+        followingNbr = self.driver.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/div[1]/div[2]/div[5]/div[1]/a').text
+        followingNbr = int(followingNbr[0:3])
+        following = self.driver.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/div[1]/div[2]/div[5]/div[1]/a')
+        following.click()
+        sleep(5)
+        for X in range(1,followingNbr +1 ):
+            unfollowbtn = self.driver.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/section/div/div/div['+str(X)+']/div/div/div/div[2]/div[1]/div[2]')
+            unfollowbtn.click()
+            sleep(2)
+            confirmbtn =  self.driver.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]')
+            confirmbtn.click()
+            sleep(5)
 
     def Retweet(self):        
         print('Still a WiP')
