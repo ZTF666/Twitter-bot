@@ -42,6 +42,8 @@ The functions are :
         # TwitterScript.Follow(self)
         # TwitterScript.FollowByHashtag(self)
         # TwitterScript.Unfollow(self)
+        
+Example :
 ```
 
 ```python
