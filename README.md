@@ -23,12 +23,10 @@ pip install selenium
 
 - **Download**
 
-```
-Chrome driver
-```
+
  💿 [ChromeDriver](http://chromedriver.chromium.org/) 💿 
 ```
-FireFox Driver
+👇👆
 ```
 🦊🦎 [GeckoDriver](https://github.com/mozilla/geckodriver/releases) 🦎🦊
 
@@ -88,7 +86,7 @@ for i in range(1,5):
  for X in range(1,9):
 ```
 
->  <p> This link should be altered , put your own id instead of mine </p>
+>  <p> This link should be altered , put your own id instead of mine in the creds.py </p>
 ```python
         self.driver.get('https://twitter.com/i/connect_people?user_id=YOUR_PROFILE_ID_GOES_HERE')
 ```
@@ -103,6 +101,7 @@ As any other file containing sensitive data, creds.py contains :
 login = 'PHONE_EMAIL_OR_USERNAME'
 pwd = 'PASSWORD'
 hashtag='YOUR HASHTAG HERE'
+id='YOUR_TWITTER_ID
 ```
 
 ```
@@ -130,7 +129,7 @@ Any help improving this and adding more stuff is welcome ! .
 you can contact me at ZTF666@protonmail.ch or via my portfolio
 ```
 
-- **:heart:** [Portfolio](https://ztfportfolio.web.app/) **:heart:**
+[Portfolio](https://ztfportfolio.web.app/)
 
 ## License
 
@@ -138,4 +137,5 @@ you can contact me at ZTF666@protonmail.ch or via my portfolio
 
 ```
 Made with 💘 by a 👨‍💻 on a 💻 | 2020 | ZTF666
+
 ``` 
